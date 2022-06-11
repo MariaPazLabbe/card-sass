@@ -1,0 +1,7 @@
+#Ignore file named 'node_modules'
+node_modules
+#Ignore file named '.DS_Store'
+.DS_Store
+#Ignore file named 'package-lock.json'
+package-lock.json
+

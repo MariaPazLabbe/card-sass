@@ -1,0 +1,41 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+.flex-centerxy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-centerx{
+    display: flex;
+    justify-content: center;
+}
+.card{
+@extend .flex-centerxy;
+height: 20%;
+width: 30vw;
+font-family: 'Beau Rivage', cursive;
+background-color: $black-gray;
+    img{
+    height: 25vh;
+    }
+    h5{
+    color:$rosa;
+    }
+    button{
+    @extend .flex-centerx;
+    border-radius: 2.5rem;
+    background-color: $rosa;
+    padding: 8px;
+    margin-top: 2%;
+    text-align: center;
+     width: 100%;
+    font-size: 100%;
+    color: $luz;
+}
+.card-text{
+    color: $luz;  
+    
+}
+}
+@import "node_modules/bootstrap/scss/bootstrap.scss";
